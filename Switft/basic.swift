@@ -1,4 +1,4 @@
-# basic
+#basic
 
 // 컬렉션 타입
 // Array, Dictionary, Set
