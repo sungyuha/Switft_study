@@ -29,7 +29,7 @@ struct ContentView: View {
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
         }*/
         
-        ZStack { // 화면을 겹겹히 쌓을 수 있음
+        /* ZStack { // 화면을 겹겹히 쌓을 수 있음
 
             // 아이폰
             Circle()
@@ -39,6 +39,20 @@ struct ContentView: View {
                 .foregroundColor(.teal)
             // 사용자
             // 사용자가 Capsule을 보고 Circle을 봄 - 순서는 위로 갈수록 뒤로!
+        }*/
+        
+        // 자동완성
+        ZStack {
+            Circle()
+                .foregroundStyle(.mint)
+                .frame(width: 200, height: 200) // 옵션을 누르고 엔터를 치면 자동으로 값이 입력 됨
+            
+            Rectangle()
+                .foregroundStyle(.teal)
+                .frame(width: 180, height: 60)
+            Rectangle()
+                .foregroundStyle(.indigo)
+                .frame(width: 60.0, height: 180.0)
         }
     }
 }
