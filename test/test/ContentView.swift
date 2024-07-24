@@ -53,6 +53,13 @@ struct ContentView: View {
             Rectangle()
                 .foregroundStyle(.indigo)
                 .frame(width: 60.0, height: 180.0)
+            
+            Circle()
+                .foregroundStyle(.pink)
+                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
+            Circle()
+                .foregroundStyle(.white)
+                .frame(width: 40, height: 40)
         }
     }
 }
