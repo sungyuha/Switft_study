@@ -62,6 +62,8 @@ struct ContentView: View {
                 .frame(width: 40, height: 40)
         }
     }
+    
+    // 런 버튼을 누르면 앱 시뮬레이터 실행 됨
 }
 
 #Preview {
